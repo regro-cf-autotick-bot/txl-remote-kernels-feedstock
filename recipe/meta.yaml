@@ -1,14 +1,14 @@
 {% set python_min = "3.10" %}
 {% set name = "txl-remote-kernels" %}
-{% set version = "0.3.6" %}
+{% set version = "0.3.9" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/txl_remote_kernels-{{ version }}.tar.gz
-  sha256: 017c67529ba94c60260b12f35b5f3e04c34d359c6b9abfc4a573fdc5c6769850
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/txl_remote_kernels-{{ version }}.tar.gz
+  sha256: 8286d0efae006e23c8febb707f878c1b47bd38113d2705f419a5e323d213593d
 
 build:
   noarch: python
